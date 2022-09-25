@@ -13,7 +13,6 @@ public class X2Test {
         int b = 0;
         int c = 0;
         int x = 2;
-
         int expected = 40;
         int rsl = X2.calc(a, b, c, x);
         assertEquals(expected, rsl);
